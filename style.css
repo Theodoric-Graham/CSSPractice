@@ -133,4 +133,25 @@ a:active {
   font-style: italic;
 }
 
+/* does nothing because pseudo-classes have higher priority*/
+/* a {
+  color: red
+} */
 /* LVHA */
+
+/* Resolving conflicts */
+/* #copyright {
+  color: red;
+}
+
+.copyright {
+  color: blue;
+}
+
+.text {
+  color: yellow;
+}
+
+footer p {
+  color: green;
+} */
