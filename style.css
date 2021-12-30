@@ -21,11 +21,11 @@ body {
   background-color: #f7f7f7;
   padding: 20px 40px;
   margin-bottom: 60px;
-  height: 80px;
 }
 
 nav {
   font-size: 18px;
+  float: right;
 }
 
 article {
@@ -54,6 +54,7 @@ h1 {
   font-size: 26px;
   text-transform: uppercase;
   font-style: italic;
+  float: left;
 }
 
 h2 {
@@ -199,3 +200,15 @@ h2::after {
 /* h3 + p::first-line {
   color: red;
 } */
+
+/* Floats */
+.author-img {
+  float: left;
+  margin-bottom: 20px;
+}
+
+.author {
+  float: left;
+  margin-top: 10px;
+  margin-left: 20px;
+}
